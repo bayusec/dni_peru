@@ -7,7 +7,7 @@
 # version         :0.1
 # usage           :python get_dni.py
 # url             :https://github.com/bayusec/dni
-# python_version  :3.7.5
+# python_version  :2.7
 # ==============================================================================
 
 import shutil
@@ -59,7 +59,6 @@ class Getdni(object):
             self.num_captcha = code.captchaUrl(self.img_path + "captcha.jpg", config)
         except Exception as e:
             print("Error al romper el captcha")
-        print self.num_captcha
 
     def post_form(self):
         # post data
