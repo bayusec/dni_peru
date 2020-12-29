@@ -13,7 +13,7 @@ Es necesario editar las 2 últimas lineas del archivo "get_dni.py" y proporciona
 -Primer Nombre
 -Segundo Nombre (opcional)
 
-![alt text](https://raw.githubusercontent.com/bayusec/imagenes/main/get_dni.png?token=ADDKNKTIZ2ZSXWYUUCFF3ZS74E37G) 
+![alt text](https://github.com/bayusec/imagenes/raw/main/get_dni.png) 
 
 
 Nota: Es necesario tener el programa tesseract para poder automatizar el envio del captcha.
